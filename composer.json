@@ -1,11 +1,11 @@
 {
     "name": "wendao/user",
-    "description": "flash for laravel",
+    "description": "sso user forn wendao system",
     "license": "MIT",
     "authors": [
         {
-            "name": "GeekGhc",
-            "email": "ghcgavin@sina.com"
+            "name": "bzhang",
+            "email": "baozhu.zhang@winndoo.com"
         }
     ],
     "minimum-stability": "dev",
