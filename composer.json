@@ -18,10 +18,7 @@
     },
     "autoload": {
         "psr-0": {
-            "GeekGhc\\LaraFlash": "src/"
-        },
-        "files": [
-            "src/GeekGhc/LaraFlash/function.php"
-        ]
+            "Winndoo\\User": "src/"
+        }
     }
 }

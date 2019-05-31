@@ -1,10 +1,12 @@
 <?php
-namespace GeekGhc\LaraFlash;
+namespace Winndoo\User;
+
 use Illuminate\Support\Facades\Facade;
-class Flash extends Facade
+
+class WdUser extends Facade
 {
     public static function getFacadeAccessor()
     {
-        return 'laraflash';
+        return 'wdUser';
     }
 }
