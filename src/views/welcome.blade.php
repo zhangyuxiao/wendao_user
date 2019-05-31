@@ -6,7 +6,7 @@
 </head>
 <body>
 <!--可以直接引入视图中的其他文件-->
-@include('LaraPackageView::message')
+@include('WdUserView::message')
 <div>
     您的ip地址是：{{ $data['user_ip'] }}
 </div>

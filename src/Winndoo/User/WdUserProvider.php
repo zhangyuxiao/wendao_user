@@ -14,7 +14,7 @@ class WdUserProvider extends ServiceProvider
     public function boot()
     {
         //注册扩展包视图，并起个名字，方便我们调用该文件夹下的视图
-        $this->loadViewsFrom(__DIR__.'/../../views','user');
+        $this->loadViewsFrom(__DIR__.'/../../views','WdUserView');
 
         //注册扩展包路由，使用php artisan route:list 命令可以查看是否生效
         $this->loadRoutesFrom(__DIR__.'/../../routes.php');

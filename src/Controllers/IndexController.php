@@ -1,9 +1,8 @@
 <?php
 
-namespace ArcherWong\LaraPackage\Controllers;
+namespace Winndoo\User\Controllers;
 
 use Illuminate\Routing\Controller as BaseController;
-use Illuminate\Support\Facades\View;
 use Winndoo\User\WdUser;
 
 class IndexController extends BaseController
